@@ -1,7 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
-
-One to two paragraph statement about your product and what it does.
+# BSSID DeAuth
+> Deauth's users from network
 
 ![](header.png)
 
@@ -13,6 +11,6 @@ OS X & Linux:
 Run it as ROOT! 
 ```
 
-## Why>
+## Why?
 
 I got lazy so I made this script to Deauth clients to attempt to steal their handshake
