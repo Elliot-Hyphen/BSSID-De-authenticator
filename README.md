@@ -14,6 +14,8 @@ sudo bash script.bash
 ## Script's Code
 
 ```shell
+#!/bin/bash
+clear
 echo -e '
 
 
