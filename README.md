@@ -30,7 +30,7 @@ $$$$$$$  |\$$$$$$$\        \$$$$$$$ |\$$$$$$  |  \$$$$  |$$ |  $$ |
                                                                                                                                         
 echo "Enter BSSID" 
 read ssid
-echo "Deauth packets (suggest 5 to avoid disconnections)"
+echo "Deauth packets (suggest 5)"
 read packet
 
 clear
